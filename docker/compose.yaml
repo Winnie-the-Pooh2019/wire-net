@@ -9,7 +9,7 @@ services:
       - LANG=ru
       # ⚠️ Required:
       # Change this to your host's public address
-      - WG_HOST=net.duvanoff.su
+      - WG_HOST=${HOST}
 
       # Optional:
       - PASSWORD_HASH=${PASS} # (needs double $$, hash of 'foobar123'; see "How_to_generate_an_bcrypt_hash.md" for generate the hash)
